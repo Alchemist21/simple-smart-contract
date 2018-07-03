@@ -5,6 +5,7 @@ contract slowlierThanThou {
         uint collisions;
         uint driverAge;
         string name;
+        bool visualAcuity;  
     }
     
     struct car {
@@ -13,5 +14,6 @@ contract slowlierThanThou {
     
     struct drivingPatterns {
         bool drivesOverSpeedLimit;
+       
     }
 }
